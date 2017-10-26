@@ -13,13 +13,12 @@ public class Alumno {
 
     private String nombre;
     private String nota;
-    protected int chulería;
-    private String prueba;
+    protected int chuleria;
     
     public Alumno(String nombre, String nota, int chuleria){
         this.nombre=nombre;
         this.nota=nota;
-        this.chulería=chuleria;     
+        this.chuleria=chuleria;     
     }
     
     public void fardar(){

@@ -14,6 +14,7 @@ public class Alumno {
     private String nombre;
     private String nota;
     protected int chuleria;
+    private String prueba;
     
     public Alumno(String nombre, String nota, int chuleria){
         this.nombre=nombre;

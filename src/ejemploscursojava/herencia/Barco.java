@@ -13,8 +13,8 @@ public class Barco extends VehiculoMaritimo{
     double eslora;
     double calado;
 
-    public Barco(double profundidadMaxima, double velocidadMaxima, double eslora, double calado) {
-        super(profundidadMaxima, velocidadMaxima);
+    public Barco(double profundidadMaxima, double velocidadMaxima, double eslora, double calado, double precio) {
+        super(profundidadMaxima, velocidadMaxima, precio);
         this.eslora=eslora;
         this.calado=calado;
     }

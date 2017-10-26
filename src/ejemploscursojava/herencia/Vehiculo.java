@@ -11,9 +11,19 @@ package ejemploscursojava.herencia;
  */
 public abstract class Vehiculo {
     protected double velocidadMaxima;
+    protected double precio;
 
-    public Vehiculo(double velocidadMaxima) {
+    public Vehiculo(double velocidadMaxima, double precio) {
         this.velocidadMaxima = velocidadMaxima;
+        this.precio = precio;
     }
+
+	public double getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
     
 }

@@ -12,9 +12,19 @@ package ejemploscursojava.herencia;
 public class Avion extends VehiculoAereo {
     protected int alas;
 
-    public Avion(double alturaMaxima, double velocidadMaxima, int alas) {
-        super(alturaMaxima, velocidadMaxima);
+    public Avion(double alturaMaxima, double velocidadMaxima, int alas, double precio) {
+        super(alturaMaxima, velocidadMaxima, precio);
         this.alas=alas;
     }
+
+	@Override
+	public String toString() {
+		return "Avion [alas=" + alas + ", alturaMaxima=" + alturaMaxima + ", velocidadMaxima=" + velocidadMaxima + " precio="+precio+"]";
+	}
+	
+	public static void main(String[] args) {
+		Avion biplaza = new Avion(100,100,2, 100000.0);
+		System.out.println(biplaza);
+	}
     
 }

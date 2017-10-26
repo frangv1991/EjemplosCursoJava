@@ -11,8 +11,8 @@ package ejemploscursojava.herencia;
  */
 public abstract class  VehiculoTerrestre extends Vehiculo{
 
-    public VehiculoTerrestre(double velocidadMaxima) {
-        super(velocidadMaxima);
+    public VehiculoTerrestre(double velocidadMaxima, double precio) {
+        super(velocidadMaxima, precio);
     }
     
 }

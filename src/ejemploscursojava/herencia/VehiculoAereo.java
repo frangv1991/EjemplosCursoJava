@@ -12,8 +12,8 @@ package ejemploscursojava.herencia;
 public abstract class VehiculoAereo extends Vehiculo{
     double alturaMaxima;
 
-    public VehiculoAereo(double alturaMaxima, double velocidadMaxima) {
-        super(velocidadMaxima);
+    public VehiculoAereo(double alturaMaxima, double velocidadMaxima, double precio) {
+        super(velocidadMaxima, precio);
         this.alturaMaxima = alturaMaxima;
     }
     

@@ -12,8 +12,8 @@ package ejemploscursojava.herencia;
 public class Tren extends VehiculoTerrestre{
     Vagon [] vagones;
 
-    public Tren(double velocidadMaxima, Vagon [] vagones) {
-        super(velocidadMaxima);
+    public Tren(double velocidadMaxima, Vagon [] vagones, double precio) {
+        super(velocidadMaxima, precio);
         this.vagones=vagones;
     }
 }

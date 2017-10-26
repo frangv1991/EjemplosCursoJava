@@ -10,5 +10,6 @@ package ejemploscursojava;
  * @author japar
  */
 public interface Mascota {
-    
+    public void serAmistoso();
+    public void jugar();
 }

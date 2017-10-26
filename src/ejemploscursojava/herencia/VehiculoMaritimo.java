@@ -12,8 +12,8 @@ package ejemploscursojava.herencia;
 public abstract class VehiculoMaritimo extends Vehiculo{
     double profundidadMaxima;
 
-    public VehiculoMaritimo(double profundidadMaxima, double velocidadMaxima) {
-        super(velocidadMaxima);
+    public VehiculoMaritimo(double profundidadMaxima, double velocidadMaxima, double precio) {
+        super(velocidadMaxima, precio);
         this.profundidadMaxima = profundidadMaxima;
     }
 
